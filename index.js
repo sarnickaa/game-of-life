@@ -10,6 +10,7 @@
 const board = [
   [0, 1, 1, 0],
   [1, 0, 0, 0],
+  // so this line is why it's failing?
   [0, 0, 0, 0],
   [0, 1, 1, 0]
 ]
@@ -22,10 +23,15 @@ const board = [
 // select coordinates for start cell - declare start cell
 // check if live or dead
 // determine what its neighbours are
+// const zeroOrOne = function (board) {
+//   return board[0][0]
+// }
+
 
 
 
 module.exports = {
   // add,
   board
+  // zeroOrOne
 }
